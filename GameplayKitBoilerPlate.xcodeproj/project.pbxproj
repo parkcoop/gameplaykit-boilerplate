@@ -16,6 +16,8 @@
 		4F98EE3F2566F47300521B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F98EE3E2566F47300521B69 /* Assets.xcassets */; };
 		4F98EE4A2566F47300521B69 /* GameplayKitBoilerPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98EE492566F47300521B69 /* GameplayKitBoilerPlateTests.swift */; };
 		4F98EE552566F47300521B69 /* GameplayKitBoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98EE542566F47300521B69 /* GameplayKitBoilerPlateUITests.swift */; };
+		4F98EE662566F49600521B69 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98EE652566F49600521B69 /* Player.swift */; };
+		4F98EE6B2566F4A200521B69 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98EE6A2566F4A200521B69 /* Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4F98EE502566F47300521B69 /* GameplayKitBoilerPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameplayKitBoilerPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F98EE542566F47300521B69 /* GameplayKitBoilerPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayKitBoilerPlateUITests.swift; sourceTree = "<group>"; };
 		4F98EE562566F47300521B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F98EE652566F49600521B69 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4F98EE6A2566F4A200521B69 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				4F98EE3B2566F47100521B69 /* Main.storyboard */,
 				4F98EE3E2566F47300521B69 /* Assets.xcassets */,
 				4F98EE402566F47300521B69 /* Info.plist */,
+				4F98EE652566F49600521B69 /* Player.swift */,
+				4F98EE6A2566F4A200521B69 /* Components.swift */,
 			);
 			path = GameplayKitBoilerPlate;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F98EE662566F49600521B69 /* Player.swift in Sources */,
 				4F98EE382566F47100521B69 /* GameScene.swift in Sources */,
+				4F98EE6B2566F4A200521B69 /* Components.swift in Sources */,
 				4F98EE3A2566F47100521B69 /* GameViewController.swift in Sources */,
 				4F98EE322566F47100521B69 /* AppDelegate.swift in Sources */,
 			);
